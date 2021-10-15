@@ -1,0 +1,44 @@
+body{
+    overflow:hidden;
+}
+
+.col3{
+   
+}
+
+.col4{
+    
+}
+
+.sh1{
+    font-size: 65px;
+    font-weight: 700;
+    color:orangered;
+}
+
+.sh1 span{
+    color: #8b3ffb;
+}
+
+.head{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sp{
+    line-height: 35px;
+}
+
+.spa1{
+    color: #8b3ffb;
+}
+.spa2{
+    color:orangered;
+}
+
+@media (max-width: 991px) {
+    .sp{
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

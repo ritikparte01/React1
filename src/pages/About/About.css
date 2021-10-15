@@ -1,0 +1,38 @@
+.col2{
+    line-height: 40px;
+    padding-left: 200px;
+    padding-top: 50px;
+}
+
+
+.ah1{
+    color: orangered;
+    font-size: 65px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.ah1 span{
+    color: #8a3ffc;
+}
+
+.ap1{
+    line-height: 40px;
+    width: 400px;
+}
+
+.ap1 span{
+    color: #8a3ffc;
+}
+
+
+p span{
+    color: #8a3ffc;
+}
+
+@media (max-width: 991px) {
+    .col2{
+        padding-left: 20px;
+        line-height: 25px;
+    }
+}

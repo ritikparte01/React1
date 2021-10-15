@@ -1,0 +1,86 @@
+.col5{
+    line-height: 40px;
+}
+
+.col6{
+
+}
+
+h1{
+    color: orangered;
+    font-size: 65px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+h1 span{
+    color: #8a3ffc;
+}
+
+Form{
+
+    height: 300px;
+    margin-top: -100px;
+}
+
+lable{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+h3{
+    color: orangered;
+}
+
+h3 span{
+    color: #8a3ffc;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background:linear-gradient(15deg,#8a3ffc, orangered);
+    color: white;
+    outline: none;
+}
+
+input::placeholder{
+    color: white;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.send{
+    width: 150px;
+    background-color: orangered !important;
+    transition: 1s;
+}
+.send:hover{
+    background-color: #8a3ffc !important;
+    transition: 1s;
+}
+
+@media (max-width: 991px) {
+   
+    
+    .col5{
+       margin-top: -30px;
+    }
+
+    Form{
+
+       margin-top: 10px;
+        }
+        input{
+            width: 380px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .send{
+            margin-top: 20px;
+        }
+}
